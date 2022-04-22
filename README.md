@@ -1,2 +1,14 @@
 # Car-Price_prediction
-Predicting car prices using RandomForest, catboost and xgboost classifiers
+
+For Car Data
+|                 |     MAE    |      MSE      |    RMSE     
+| --------------- | ---------- | ------------- | ----------- 
+|  Random Forest  |  1.275  |  12.984  |   3.6034  
+|  Xgboost        |   0.6819        |   1.347   |   1.160   
+|  Catboost       |  0.583  |  0.835  |   0.91388 
+
+|                 |     MAE    |      MSE      |    RMSE     
+| --------------- | ---------- | ------------- | ----------- 
+|  Random Forest  |  1189.875  |  4101391.662  |   2025.189  
+|  TFDF           |   -        |  4263760.00   |   2064.89   
+|  Catboost       |  1159.825  |  3126290.854  |   1768.132 
